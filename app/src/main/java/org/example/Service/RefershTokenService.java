@@ -5,11 +5,13 @@ import org.example.entities.UsersInfo;
 import org.example.repository.RefreshTokenRepository;
 import org.example.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.time.Instant;
 import java.util.Optional;
 import java.util.UUID;
 
+@Service
 public class RefershTokenService {
 
     @Autowired

@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name= "users")
+@Table(name= "roles")
 public class UsersRole {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

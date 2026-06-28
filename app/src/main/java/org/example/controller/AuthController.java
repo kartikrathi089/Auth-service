@@ -22,7 +22,7 @@ public class AuthController
 {
 
     @Autowired
-    private org.example.Service.JwtService jwtService;
+    private JwtService jwtService;
 
     @Autowired
     private RefershTokenService refreshTokenService;
